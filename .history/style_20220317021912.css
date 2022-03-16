@@ -480,20 +480,5 @@ textarea#inputSubject:focus {
         padding: 0;
     }
 
-    .navbar-toggler:focus {
-        text-decoration: none;
-        outline: 0;
-        box-shadow: none;
-    }
-
-    .navbar-light .navbar-toggler {
-        color: rgba(0,0,0,.55);
-        border-color: transparent;
-    }
-
-    .navbar-light .navbar-toggler {
-        color: transparent;
-    }
-
 
 }

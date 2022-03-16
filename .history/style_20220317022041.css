@@ -483,16 +483,7 @@ textarea#inputSubject:focus {
     .navbar-toggler:focus {
         text-decoration: none;
         outline: 0;
-        box-shadow: none;
-    }
-
-    .navbar-light .navbar-toggler {
-        color: rgba(0,0,0,.55);
-        border-color: transparent;
-    }
-
-    .navbar-light .navbar-toggler {
-        color: transparent;
+        box-shadow: 0 0 0 0.25rem;
     }
 
 

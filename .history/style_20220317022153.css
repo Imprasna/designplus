@@ -488,11 +488,11 @@ textarea#inputSubject:focus {
 
     .navbar-light .navbar-toggler {
         color: rgba(0,0,0,.55);
-        border-color: transparent;
+        border-color: none !important;
     }
 
     .navbar-light .navbar-toggler {
-        color: transparent;
+        
     }
 
 

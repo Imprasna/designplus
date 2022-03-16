@@ -8,26 +8,9 @@ html {
     scroll-behavior: smooth;
 }
 
-ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
-    display: flex;
-    align-items: center;
-}
-
 ul > li.nav-item.tel-phone > a.nav-link {
-    color: #0BB390;
+    color: green;
     font-weight: 700;
-    font-size: 1.4rem;
-    position: relative;
-}
-
-ul > li.nav-item.tel-phone > a.nav-link::before {
-    content: '';
-    position: absolute;
-    height: 70%;
-    width: 1px;
-    background: #999;
-    left: 0;
-    top: 0.5rem;
 }
 
 .hero_sec > img {
@@ -472,28 +455,6 @@ textarea#inputSubject:focus {
         font-size: 1.2rem;
     }
 
-    ul > li.nav-item.tel-phone > a.nav-link::before {
-       display: none;
-    }
-
-    header > .container-fluid {
-        padding: 0;
-    }
-
-    .navbar-toggler:focus {
-        text-decoration: none;
-        outline: 0;
-        box-shadow: none;
-    }
-
-    .navbar-light .navbar-toggler {
-        color: rgba(0,0,0,.55);
-        border-color: transparent;
-    }
-
-    .navbar-light .navbar-toggler {
-        color: transparent;
-    }
 
 
 }

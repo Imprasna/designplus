@@ -472,28 +472,6 @@ textarea#inputSubject:focus {
         font-size: 1.2rem;
     }
 
-    ul > li.nav-item.tel-phone > a.nav-link::before {
-       display: none;
-    }
-
-    header > .container-fluid {
-        padding: 0;
-    }
-
-    .navbar-toggler:focus {
-        text-decoration: none;
-        outline: 0;
-        box-shadow: none;
-    }
-
-    .navbar-light .navbar-toggler {
-        color: rgba(0,0,0,.55);
-        border-color: transparent;
-    }
-
-    .navbar-light .navbar-toggler {
-        color: transparent;
-    }
 
 
 }

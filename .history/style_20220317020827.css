@@ -8,27 +8,6 @@ html {
     scroll-behavior: smooth;
 }
 
-ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
-    display: flex;
-    align-items: center;
-}
-
-ul > li.nav-item.tel-phone > a.nav-link {
-    color: #0BB390;
-    font-weight: 700;
-    font-size: 1.4rem;
-    position: relative;
-}
-
-ul > li.nav-item.tel-phone > a.nav-link::before {
-    content: '';
-    position: absolute;
-    height: 70%;
-    width: 1px;
-    background: #999;
-    left: 0;
-    top: 0.5rem;
-}
 
 .hero_sec > img {
     width: 100%;
@@ -435,7 +414,6 @@ textarea#inputSubject:focus {
         display: flex;
         justify-content: center;
         position: relative;
-        margin-top: 3rem;
     }
 
     .col-sm-5.col-md-6.second_sec-img > .fif {
@@ -451,49 +429,7 @@ textarea#inputSubject:focus {
         font-size: 1rem;
     }
 
-    .col-md-4.text-center.top_sec,
-    .col-md-4.text-center.middle_sec {
-        border-right: none;
-    }
 
-    .col-md-4.text-center.social_icons {
-        margin-top: 2rem;
-    }
-
-    a.btn.btn-primary::before {
-        bottom: 3.4rem;
-    }
-
-    .row.second_sec-block > .col-sm-5.col-md-6 > p {
-        font-size: 1.5rem;
-    }
-
-    .row.second_sec-block > .col-sm-5.col-md-6 > p.description {
-        font-size: 1.2rem;
-    }
-
-    ul > li.nav-item.tel-phone > a.nav-link::before {
-       display: none;
-    }
-
-    header > .container-fluid {
-        padding: 0;
-    }
-
-    .navbar-toggler:focus {
-        text-decoration: none;
-        outline: 0;
-        box-shadow: none;
-    }
-
-    .navbar-light .navbar-toggler {
-        color: rgba(0,0,0,.55);
-        border-color: transparent;
-    }
-
-    .navbar-light .navbar-toggler {
-        color: transparent;
-    }
 
 
 }
