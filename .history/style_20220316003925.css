@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.hero_sec > img {
+    width: 100%;
+}
+
+.container-fluid.hero_sec {
+    padding: 0;
+    position: relative;
+}
+
+p.hero_texts {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+    max
+}
