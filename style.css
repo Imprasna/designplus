@@ -265,7 +265,7 @@ a.btn.btn-primary::before {
     background: #f2f2f2;
 }
 
-.container-fluid.contact_sec > .container-fluid > .row > h1 {
+.container-fluid.contact_sec > .container > .row > h1 {
     font-size: 3rem;
     font-weight: 600;
     color: #000;
@@ -302,7 +302,7 @@ textarea#inputSubject:focus {
     border-bottom: 1px solid #0BB390;
 }
 
-.container-fluid.contact_sec > .container-fluid > .row > form > .col-12 > button.btn.btn-primary {
+.container-fluid.contact_sec > .container > .row > form > .col-12 > button.btn.btn-primary {
     background: #0BB390;
     padding: 10px 30px;
     border-radius: 0;
@@ -311,7 +311,7 @@ textarea#inputSubject:focus {
     transition: all 0.3s;
 }
 
-.container-fluid.contact_sec > .container-fluid > .row > form > .col-12 > button.btn.btn-primary:hover {
+.container-fluid.contact_sec > .container > .row > form > .col-12 > button.btn.btn-primary:hover {
     background: #fff;
     color: #000;
 }
